@@ -72,7 +72,7 @@ function validateInput() {
 }
 //Lưu data xuống local storage
 function setLocalStorage() {
-    localStorage.setItem('taskList', JSON.stringify(taskList));
+    localStorage.setItem('taskList', JSON.stringify(taskList.arr));
 }
 //lấy data từ local storage
 function getLocalStorage() {
